@@ -1,0 +1,109 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+a:hover { text-decoration: none }
+
+.section-padding {
+    padding-top: 100px;
+    text-align: center;
+    color: #656063;
+  }
+  .pricing-table {
+    box-shadow: 0 0 10px #f2f2f2;
+    line-height: 2;
+  }
+  .col-md-4 {
+    padding: 0;
+  }
+  .p-heading {
+    background-color: #f9f9f9;
+    padding: 55px;
+  }
+  .p-heading h4 {
+    color: #838789;
+    font-size: 30px;
+    font-weight: 300;
+  }
+  .p-heading h1 {
+    font-size: 50px;
+    font-weight: 400;
+    color: #333;
+  }
+  .p-heading p {
+    font-size: 18px;
+  }
+  .p-list ul {
+    list-style: none;
+    line-height: 2.3;
+    font-size: 18px;
+    margin: 25px 0px;
+    padding: 0;
+  }
+  .p-button {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fb2a73;
+    border: 1px solid #fc103c;
+    padding: 10px 20px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-bottom: 25px;
+  }
+  .p-button:hover {
+    color: #fc103c;
+  }
+  .active .p-button {
+    background-color: #fc103c;
+    color: #fff;
+    margin-bottom: 50px;
+  }
+  .active .p-heading {
+    background-color: #fc103c;
+    color: #fff;
+  }
+  .active .p-heading h4, .active .p-heading h1 {
+    color: #fff;
+  }
+  .active {
+    margin-top: -30px;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 0 10px #f3f3f3;
+  }
+  .active:before {
+    content: "Fetureid";
+    right: -41px;
+    transform: rotate(45deg);
+    position: absolute;
+    background-color: #fff;
+    color: #fc103c;
+    padding: 5px 65px;
+    top: 28px;
+  }
+  .active .p-list ul {
+    margin: 30px 0px;
+  }
